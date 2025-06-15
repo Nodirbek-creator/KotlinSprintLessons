@@ -11,4 +11,5 @@ fun main(){
     numberOfEmployees--
     println("Текущее количество работников: $numberOfEmployees")
 
+
 }

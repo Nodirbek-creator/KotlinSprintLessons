@@ -9,7 +9,7 @@ fun main(){
     println("minute of launch: ${minute.toDisplayableFormat()}")
     hour = 10
     minute = 55
-    print("Время посадки: ${hour.toDisplayableFormat()}:${minute.toDisplayableFormat()}")
+    print("Время посадки: ${hour.toDisplayableFormat()}:${minute.toDisplayableFormat()}")//
 }
 fun Short.toDisplayableFormat(): String{
     if(this<10){

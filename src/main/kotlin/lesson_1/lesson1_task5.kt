@@ -5,6 +5,7 @@ fun main(){
     val minutes: Int = (timeInSeconds/60)%60
     val hours: Int = (timeInSeconds/3600)
     val seconds: Int = timeInSeconds%60
+
     println("Time: ${hours.toDisplayableNumber()}:${minutes.toDisplayableNumber()}:${seconds.toDisplayableNumber()}")
 }
 fun Int.toDisplayableNumber(): String{
